@@ -20,9 +20,9 @@ body {
     "ft ft ft ft ft ft ft ft";
 }
 
-.box {
+/* .box {
   display: grid;
-}
+} */
 
 .header {
   grid-area: hd;
