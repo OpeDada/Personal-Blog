@@ -1,3 +1,41 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"); */
 
 /* font: 20px Montserrat; */
+
+body {
+  background-color: #c1bcbc;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 80px 400px 1fr;
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+}
+
+.box {
+  display: grid;
+}
+
+.header {
+  grid-area: hd;
+}
+
+.sidebar {
+  grid-area: sd;
+}
+
+.content {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: ft;
+}
