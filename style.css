@@ -10,7 +10,6 @@ body {
   text-align: center;
 }
 
-
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -36,8 +35,18 @@ li a {
     "sd main main main main main main main"
     "ft ft ft ft ft ft ft ft";
 } */
-.card {
-display: grid;
-grid-template-columns: 1fr 1fr;
-  grid-template-rows: 80px 400px 1fr;
+.blog-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 36px;
+  justify-self: center;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+  height: auto;
 }
