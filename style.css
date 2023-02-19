@@ -27,7 +27,7 @@ li a {
   text-decoration: none;
 }
 
-.container {
+/* .container {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 80px 400px 1fr;
@@ -35,24 +35,9 @@ li a {
     "hd hd hd hd hd hd hd hd"
     "sd main main main main main main main"
     "ft ft ft ft ft ft ft ft";
-}
-
-/* .box {
-  display: grid;
 } */
-
-.header {
-  grid-area: hd;
-}
-
-.sidebar {
-  grid-area: sd;
-}
-
-.content {
-  grid-area: main;
-}
-
-.footer {
-  grid-area: ft;
+.card {
+display: grid;
+grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80px 400px 1fr;
 }
