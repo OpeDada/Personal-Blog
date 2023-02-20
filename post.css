@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+p {
+  font: 16px Montserrat;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 80px 150px 50px; */
+  /* grid-auto-rows: minmax(50px, auto); */
+  grid-gap: 0 36px;
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "main main main main main main sd sd"
+    "ft ft ft ft ft ft ft ft";
+  margin: 4px;
+  padding: 4px;
+}
+
+header {
+  grid-area: hd;
+
+  text-align: center;
+}
+
+.blog-content {
+  grid-area: main;
+}
+
+.author-details {
+  grid-area: sd;
+}
+
+.footer {
+  grid-area: ft;
+}
