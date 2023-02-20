@@ -36,9 +36,6 @@ li a {
     "ft ft ft ft ft ft ft ft";
 } */
 
-.container {
-}
-
 .blog-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -49,7 +46,6 @@ li a {
 }
 
 img {
-  border: 1px solid #ddd;
   border-radius: 4px;
   max-width: 100%;
   height: auto;
@@ -58,4 +54,5 @@ img {
 .card {
   border: 2px solid gray;
   padding: 8px;
+  align-items: center;
 }
