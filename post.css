@@ -4,18 +4,21 @@ p {
   font: 16px Montserrat;
 }
 
+a {
+  display: block;
+}
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 80px 150px 50px; */
-  /* grid-auto-rows: minmax(50px, auto); */
+  grid-auto-rows: minmax(50px, auto);
   grid-gap: 0 36px;
   grid-template-areas:
     "hd hd hd hd hd hd hd hd"
-    "main main main main main main sd sd"
+    "main main main main sd sd sd sd"
     "ft ft ft ft ft ft ft ft";
-  margin: 4px;
-  padding: 4px;
+  margin: 16px;
+  padding: 16px;
+  max-width: 90%;
 }
 
 header {
@@ -26,6 +29,7 @@ header {
 
 .blog-content {
   grid-area: main;
+  max-width: 90%;
 }
 
 .author-details {
