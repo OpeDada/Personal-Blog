@@ -7,5 +7,14 @@ img {
   border-radius: 4px;
   width: 100%;
   height: auto;
+  padding-bottom: 0.5em;
 }
 
+figure {
+  margin: auto;
+}
+
+figcaption {
+  padding: 2px;
+  text-align: center;
+}

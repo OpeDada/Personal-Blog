@@ -13,12 +13,6 @@
   padding: 4px;
 }
 
-.card-img {
-  width: 100%;
-  font-size: 80%;
-  text-align: center;
-}
-
 @media (max-width: 600px) {
   .blog-cards {
     display: grid;
