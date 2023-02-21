@@ -1,4 +1,4 @@
-@import "home.css";
+@import "home_page.css";
 @import "post.css";
 @import "card.css";
 
@@ -20,4 +20,8 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.footer {
+  margin: 48px 8px;
 }

@@ -1,3 +1,10 @@
+
+.card {
+  border: 2px solid gray;
+  padding: 8px;
+  align-items: center;
+}
+
 .blog-cards {
   display: inline-grid;
   grid-template-columns: 1fr 1fr;
